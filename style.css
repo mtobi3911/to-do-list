@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+  background-color: #7bdcff;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
 .backgroundColor {
   height: 900px;
-  background-color: burlywood;
+  background-color: #fbb5b5;
   margin: 15px 300px 15px 300px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 3px #454444;
+
 }
 .toDo {
   max-width: 980px;
@@ -12,7 +24,7 @@
 }
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 10px;
 }
 
@@ -43,8 +55,12 @@
 .taskItem {
   border: 1px solid gray;
   border-radius: 10px 10px;
-  background-color: rgb(169, 167, 167);
+  background-color: #f5bafc;
   box-shadow: 3px 3px 3px #454444;
+}
+.taskItem:hover {
+  background-color: #f49efd;
+  transition: .3s;
 }
 .checked {
   text-decoration: line-through;
