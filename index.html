@@ -7,26 +7,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="toDo">
-      <header class="container">
-        <div>время</div>
-        <div>To-Do Лист</div>
-        <div>
-          <a class="image" href="form.html">
-            <img class="icon iconImage" src="content/plus_dark.png" alt="#" />
-            <img
-              class="hoverIcon iconImage"
-              src="content/plus_color.png"
-              alt="#"
-            />
-          </a>
+    <div class="backgroundColor">
+      <div class="toDo">
+        <header class="container">
+          <div>To-Do Лист</div>
+          <div>
+            <button class="btnNew" id="addTaskBtn">Добавить</button>
+          </div>
+        </header>
+        <div class="checkList">
+          <button id="tab-new">Новые</button>
+          <button id="tab-done">Выполненные</button>
         </div>
-      </header>
-      <hr />
-      <div class="checkList">
-        <div><a class="clickCheckList" href="#">Новые</a></div>
-        <div><a class="clickCheckList" href="#">Выполненные</a></div>
+
+        <div id="tasksNew" class="task-section"></div>
+        <div id="tasksDone" class="task-section" style="display: none"></div>
+        <div class="content" id="doneNotDone"></div>
       </div>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
