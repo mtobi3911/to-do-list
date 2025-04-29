@@ -38,6 +38,12 @@
   justify-content: space-between;
   align-items: center;
 }
+.taskItem {
+  border: 1px solid gray;
+  border-radius: 10px 10px;
+  background-color: rgb(169, 167, 167);
+  box-shadow: 3px 3px 3px #454444;
+}
 .checked {
   text-decoration: line-through;
   color: gray;
