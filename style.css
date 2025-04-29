@@ -2,6 +2,8 @@
   height: 900px;
   background-color: burlywood;
   margin: 15px 300px 15px 300px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 3px #454444;
 }
 .toDo {
   max-width: 980px;
